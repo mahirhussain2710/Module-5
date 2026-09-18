@@ -21,9 +21,18 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-Add code Here
+```
+class demo:
+    def __init__(self):
+        self.status="Alive"
+    def __del__(self):
+        print("The object no longer exists")
+a=demo()
+print(a.status)
+```
 
 ## 🧪 Output
+<img width="964" height="219" alt="image" src="https://github.com/user-attachments/assets/9400dd83-5f9e-4d7f-8c6a-789b5e55d229" />
 
 ## Result
-
+Thus, the program demonstrates how to implement a non-parameterized constructor in Python using a simple class and has been executed successfully
